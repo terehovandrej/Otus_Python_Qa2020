@@ -1,0 +1,24 @@
+import json
+from csv import DictReader
+
+with open('../dz3/files/books.csv', newline='') as f:
+    reader = DictReader(f)
+    books_list = []
+    for row in reader:
+        books = {'Title': row['Title'], 'Author': row['Author'], 'Height': row['Height']}
+        books_list.append(books)
+
+with open("../dz3/files/users.json", "r") as f:
+    users_data = json.loads(f.read())
+    #
+    user_list = []
+    for user in users_data:
+        new_dict = {'name': user['name'], 'gender': user['gender'], 'address': user['address']}
+        user_list.append(new_dict)
+
+data = []
+for user, book in zip(user_list, books_list):
+    data.append({'name': user['name'], 'gender': user['gender'], 'address': user['address'], 'books': [book]})
+with open("example2.json", "w") as f:
+    s = json.dumps(data, indent=4)
+    f.write(s)
