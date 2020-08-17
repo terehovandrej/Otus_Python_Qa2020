@@ -1,0 +1,142 @@
+{
+    "requests_total": 102924,
+    "requests_by_type": {
+        "GET": 102744,
+        "HEAD": 166,
+        "POST": 0,
+        "PUT": 0,
+        "DELETE": 0,
+        "OPTIONS": 0
+    },
+    "top_10_ip_addresses": [
+        {
+            "ip": "216.46.173.126",
+            "count": 4700
+        },
+        {
+            "ip": "180.179.174.219",
+            "count": 3440
+        },
+        {
+            "ip": "204.77.168.241",
+            "count": 2878
+        },
+        {
+            "ip": "65.39.197.164",
+            "count": 2730
+        },
+        {
+            "ip": "80.91.33.133",
+            "count": 2404
+        },
+        {
+            "ip": "84.208.15.12",
+            "count": 2240
+        },
+        {
+            "ip": "74.125.60.158",
+            "count": 2168
+        },
+        {
+            "ip": "119.252.76.162",
+            "count": 2128
+        },
+        {
+            "ip": "79.136.114.202",
+            "count": 1256
+        },
+        {
+            "ip": "54.207.57.55",
+            "count": 1064
+        }
+    ],
+    "top_10_longest_requests": [
+        {
+            "method": "GET",
+            "url": "/downloads/product_1",
+            "ip": "5.9.121.211",
+            "duration": 86377168
+        },
+        {
+            "method": "GET",
+            "url": "/downloads/product_1",
+            "ip": "5.9.121.211",
+            "duration": 86377168
+        },
+        {
+            "method": "GET",
+            "url": "/downloads/product_1",
+            "ip": "74.205.117.244",
+            "duration": 85619205
+        },
+        {
+            "method": "GET",
+            "url": "/downloads/product_1",
+            "ip": "54.175.18.186",
+            "duration": 85619205
+        },
+        {
+            "method": "GET",
+            "url": "/downloads/product_1",
+            "ip": "54.239.240.49",
+            "duration": 85619205
+        },
+        {
+            "method": "GET",
+            "url": "/downloads/product_1",
+            "ip": "107.23.7.76",
+            "duration": 85619205
+        },
+        {
+            "method": "GET",
+            "url": "/downloads/product_1",
+            "ip": "107.23.7.76",
+            "duration": 85619205
+        },
+        {
+            "method": "GET",
+            "url": "/downloads/product_1",
+            "ip": "2001:4801:7824:102:8bee:6e66:ff10:6aa2",
+            "duration": 85619205
+        },
+        {
+            "method": "GET",
+            "url": "/downloads/product_1",
+            "ip": "2001:4802:7801:102:8bee:6e66:ff20:3db9",
+            "duration": 85619205
+        },
+        {
+            "method": "GET",
+            "url": "/downloads/product_1",
+            "ip": "107.23.7.76",
+            "duration": 85619205
+        }
+    ],
+    "top_10_client_error_requests": [
+        {
+            "url": "/downloads/product_1",
+            "status": "404"
+        },
+        {
+            "url": "/downloads/product_2",
+            "status": "404"
+        },
+        {
+            "url": "/downloads/product_1",
+            "status": "416"
+        },
+        {
+            "url": "/downloads/product_1",
+            "status": "403"
+        },
+        {
+            "url": "/downloads/product_2",
+            "status": "416"
+        },
+        {
+            "url": "/downloads/product_2",
+            "status": "403"
+        }
+    ],
+    "top_10_server_error_requests": []
+}
